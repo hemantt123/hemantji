@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .head{
+        height: 100%;
+        width: 100%;
+        background-color: #29546c;
+        display: flex;
+        align-items: center;
+        gap: 50px;
+    }
+ 
+    h1{
+        color: white;
+    }
+    .content{
+        display: flex;
+        height: 20px;
+        gap: 20px;
+        justify-content: flex-end;
+    }
+    .content:hover{
+        color:rebeccapurple;
+    }
+
+
+
+    @media(max-width:200px){
+        body{
+            color: chartreuse;
+        }
+    }
+    .box1{
+        margin-left: 30px;
+    }
+
+    .main{
+        height: 80vh;
+        width: 100%;
+        background-image: url("./welpaper.jpeg");
+        background-position: center;
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        gap: 10px;
+    }
+    .bo{
+        height: 110px;
+        width: 200px;
+        /* border: 1px solid black; */
+        background-color: white;
+        /* opacity: 0.10; */
+        display:grid;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+    .bo:hover{
+        background-color: rebeccapurple;
+        color: blanchedalmond;
+        text-transform: capitalize;
+        font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    }
+
+    @media(max-width:600px){
+        body{
+            background-color:white;   
+        }
+        main{
+            flex-direction: column;
+        }
+    }
+
+
+    @media(min-width:601px) and (max-width:800px){
+        body{
+            background-color: aqua;
+        }
+    }
+    .head:hover{
+        background-color: red;
+    }
+    /* .text00{
+        text-decoration-line: none;
+        font-size: xx-large ;
+        color: gray;
+      
+    } */
+    a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+    @media(max-width:504px) and (min-width:110px){
+        .head{
+            text-align: center;
+            position: relative;
+        
+        }
+    }
+
+
+
+    @media(max-width:460px) and (min-width:110px){
+        body{
+            position: absolute;
+        }
+    }
+</style>
+<body>
+
+    <div class="head">
+        <div class="box1">
+            <img src="./logo_img (1).png" alt="">
+        </div>
+        <div class="text00">
+          
+        <h1>Rajasthan Staff Selecion Board , Jaipur</h1>
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="b">
+            Screen reader Access
+        </div>
+        <div class="b">
+            Skip to main content
+        </div>
+        <div class="b">
+            Login
+        </div>
+        <div class="b">
+            <img src="./tools_icon.png" alt="">
+        </div>
+    </div>
+
+
+
+
+
+    <div class="main">
+        <div class="bo"><b>Requiremant Advertisement </b></div>
+     <a href="https://results.gov.in/" > <div class="bo"> <b>Result </b></div></a>
+        <div class="bo"> <b>News Notification </b></div>
+        <div class="bo"> <b>Admit Card </b></div>
+    </div>
+    
+    
+    
+</body>
+</html>
